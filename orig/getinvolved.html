@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>
+             Open Air Pub | The Best Place On Earth
+        </title>
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css">
+        <link href="css/style.css" rel="stylesheet" type="text/css">
+    </head>
+    <body>
+
+        <!-- ========== //Nav section ========== -->
+        <header class="navbar navbar-transparent navbar-fixed-top">
+          <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                  <span class="icon-bar bg-light"></span>
+                  <span class="icon-bar bg-light"></span>
+                  <span class="icon-bar bg-light"></span>
+              </button>
+               <a class="navbar-brand" href="#">
+                  <img src="img/oap_logo_dark.svg" alt=""/>
+              </a>
+          </div>
+
+          <nav class="navbar-collapse collapse" role="navigation">
+                <ul class="main-nav navbar-nav Tc-w">
+                    <li class="M-5 P-lr5 Ov-h">
+                        <a href="/faq.html" class=" D-ib">
+                            <span data-hover="faq">faq</span>
+                        </a>
+                    </li>
+                    <li class="reveal-dropdown M-5 P-lr5">
+                        <a href="/lineup.html" class="D-ib Ov-h">
+                            <span data-hover="line up">line up</span> 
+                            <span class="reveal-button">+</span>
+                        </a>
+                        <ul class="dropdown-submenu mh-hide W-80x">
+                          <li class="M-5"><a href="/schedule-w1.html">sept 1>4</a></li>
+                          <li class="M-5"><a href="/schedule-w2.html">sept 8>11</a></li>
+                        </ul>
+                    </li>
+                    <li class="M-5 Ov-h P-lr5">
+                        <a href="/the-loop.html" class="D-ib"><span data-hover="the loop">the loop</span></a>
+                    </li>
+                    <li class="M-5 Ov-h P-lr5">
+                        <a href="/media.html" class="D-ib"><span data-hover="media">media</span></a>
+                    </li>
+                    <li class="reveal-dropdown M-5 P-lr5">
+                        <a href="/get-involved.html" class="active D-ib Ov-h">
+                            <span data-hover="get involved">get involved</span> 
+                            <span class="reveal-button">+</span>
+                        </a>
+                        <ul class="dropdown-submenu mh-hide">
+                            <li class="M-5"><a href="/partners.html">partners</a></li>
+                            <li class="M-5"><a href="/volunteer.html">volunteer</a></li>
+                            <li class="M-5"><a href="/press.html">press</a></li>
+                        </ul>
+                  </li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- ========== //Backdrop title ========== -->
+        <section id = "getinvolved_bg" class = "section-header">
+            <div class="overlay">
+                <h1 class="Tc-w Fw-b">get involved!</h1>
+                <h2 class="Tc-a Fw-b">help us make it happen</h2>
+            </div>
+        </section> 
+        <!-- ========== //Get Involved section ========== -->
+        <section id="get_involved">       
+            <section id = "contact-info">
+                <div class="Ta-c D-ib">
+                    <p class="M-20">
+                        <i class="fa fa-2x  fa-send-o"></i>
+                    </p>
+                    <ul id = "emails" class="D-ib">
+                        <li class="P-tb10"><p class="Fw-b Fz-30">bands.</p><p>music.oap@mcgilleus.ca</p></li>
+                        <li class="P-tb10"><p class="Fw-b Fz-30">sponsors.</p><p>oap@mcgilleus.ca</p></li>
+                        <li class="P-tb10"><p class="Fw-b Fz-30">general inquiries.</p><p>oap@mcgilleus.ca</p></li>
+                        <li class="P-tb10"><p class="Fw-b Fz-30">address.</p><p>3480 Rue University,<br/>Quebec,<br/>Canada</p></li>
+
+                    </ul>
+                </div>
+                <div id = "map"> </div>
+            </section>
+
+            <section id = "volunteer">
+                <div id = "vblk1"></div>
+                <div id = "vblk2">
+                    <p class="Fw-b">are you up to the volunteering challange?</p>
+                    <form class="P-tb10" method="post" onsubmit="postToGD()">
+                        <input id = "fn" name ="first" type="text" placeholder="first name" class="Ta-c"></input><br/>
+                        <input id = "ln" name = "last" type="text" placeholder="last name" class="Ta-c"></input><br/>
+                        <input id = "email" name = "email" type="email" placeholder="email" class="Ta-c"></input><br/>
+                        <input id = "tele" name = "phone" type="tel" placeholder="phone number" class="Ta-c"></input><br/>
+                        <input id = "txt" name="update" type="checkbox" class="Ta-c">I would like text updates</input><br/>
+
+                        <input type="submit"  value="Sign me up!"></input>
+                    </form>
+                </div>
+            </section>
+            <section id = "the_team" class="artist-wrapper">
+                <section>
+                    <div class = "artist-tile bg-dark Tc-w">
+                        <a href="" style="background-image: url('img/managers/am.jpg');"></a>
+                        <div class="Fz-20  Fw-b">
+                            <p >Ashkaan Mohtishami</p>
+                        </div>
+
+                    </div>
+                    <div class = "artist-tile bg-dark Tc-w">
+                        <a href="" style="background-image: url('img/managers/mg.jpg');"></a>
+                        <div class="Fz-20  Fw-b">
+                            <p>Morgan Grobin</p>
+                        </div>
+
+                    </div>
+                </section>
+                <section>
+                    <div class = "artist-tile bg-dark Tc-w">
+                        <a href="" style="background-image: url('img/managers/pc.jpg');"></a>
+                        <div class="Fz-20  Fw-b">
+                            <p>Patrick Chandler</p>
+                        </div>
+
+                    </div>
+                    <div class = "artist-tile bg-dark Tc-w">
+                        <a href="/lineup.html#caferacer" style="background-image: url('img/managers/mk.jpg');"></a>
+                        <div class="Fz-20  Fw-b">
+                            <p>Mike Karpuk</p>
+                        </div>
+
+                    </div>
+                </section>
+                <section>
+                   <div class = "artist-tile bg-dark Tc-w">
+                        <a href="" style="background-image: url('img/managers/ap.jpg');"></a>
+                        <div class="Fz-20  Fw-b">
+                            <p>Annie Pike</p>
+                        </div>
+
+                    </div>
+                    <div class = "artist-tile bg-dark Tc-w">
+                        <a href="" style="background-image: url('img/managers/eg.jpg');"></a>
+                        <div class="Fz-20  Fw-b">
+                            <p>Eric Gubiani</p>
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class = "artist-tile bg-dark Tc-w">
+                        <a href="" style="background-image: url('img/managers/dc.jpg');"></a>
+                        <div class="Fz-20  Fw-b">
+                            <p>Dimitri Calomiris</p>
+                        </div>
+
+                    </div>
+                    <div class = "artist-tile bg-dark Tc-w">
+                        <a href="" style="background-image: url('img/managers/jk.jpg');"></a>
+                        <div class="Fz-20  Fw-b">
+                            <p>John Karpuk</p>
+                        </div>
+
+                    </div>
+                </section>
+                <section>
+                    <div class = "artist-tile bg-dark Tc-w">
+                        <a href="" style="background-image: url('img/managers/ma.jpg');"></a>
+                        <div class="Fz-20  Fw-b">
+                            <p>Martin Aralov</p>
+                        </div>
+
+                    </div>
+                    <div class = "artist-tile bg-dark Tc-w">
+                        <a href="" style="background-image: url('img/managers/npj.jpg');"></a>
+                        <div class="Fz-20  Fw-b">
+                            <p>Nick Proulx-Jones</p>
+                        </div>
+
+                    </div>
+                </section>
+                <section>
+                    <div class = "artist-tile bg-dark Tc-w">
+                        <a href="" style="background-image: url('img/managers/ir.jpg');"></a>
+                        <div class="Fz-20  Fw-b">
+                            <p>Ian Richardson</p>
+                        </div>
+
+                    </div>
+                </section>
+            </section>
+            
+            <section id = "partners" class="P-t50">
+                <div class="D-ib">
+                    <img id="provigo" src="img/sponsors/provigo.png"></img>
+                </div>
+                <div class="D-ib">
+                    <img id="eus" src="img/sponsors/eus-logo.jpg"></img>
+                </div>
+                <div class="D-ib">
+                    <img id="sleeman" src="img/sponsors/logo-sleeman.png"></img>
+                </div>
+            </section> 
+        </section>
+
+        <!-- ========= //Footer section ========= -->
+        <footer class="P-tb10">
+            <p class = "Ta-c P-tb10">
+                <a class = "D-ib B-cir fa fa-facebook" href="http://facebook.com/OpenAirPub"></a>
+                <a class = "D-ib B-cir fa fa-instagram" href="http://instagram.com/OpenAirPub"></a>
+                <a class = "D-ib B-cir fa fa-twitter" href="https://twitter.com/OpenAirPub"></a>
+                            
+            </p>
+            <p class = "Ta-c P-tb10">
+                <a href="#">contact</a>
+                <span href="#"> / </span>
+                <a href="#" >the team</a>
+                <span href="#"> / </span>
+                <a href="#">the legacy</a>
+            </p>
+            <p class="P-tb10">&copy Open Air Pub 2015</p>
+        </footer> 
+
+    
+        <script src="js/jquery-2.1.1.min.js" type="text/javascript"></script>
+        <script src="js/bootstrap.min.js" type="text/javascript"></script>
+         <script src="js/smooth-scroll.js" type="text/javascript"></script>
+         <script src="https://maps.googleapis.com/maps/api/js?sensor=false"></script> 
+        <script src="js/main.js" type="text/javascript"></script>
+        <script type="text/javascript">
+            //to link an FAQ, use href: /faq.html#(insert faq tag)
+            $(window).load(function(event){
+                var hash = window.location.hash;
+                var location= $("#faq").find("[href='" + hash + "']");
+                location.click();
+                smoothScroll(location);
+            });        
+        </script>
+    </body>
+</html>
